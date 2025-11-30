@@ -1,6 +1,6 @@
 # Subscription Tracker Backend
 
-A Node.js + Express backend service for managing user subscriptions and sending automated renewal reminder emails. The system uses MongoDB for persistence, JWT for authentication, Upstash Workflows for background scheduling, and Nodemailer for email delivery.
+A Node.js + Express backend service for managing user subscriptions and sending automated renewal reminder emails. The system uses MongoDB for database, JWT for authentication, Upstash Workflows for background scheduling, and Nodemailer for email delivery.
 
 <img width="1386" height="763" alt="Screenshot 2025-11-30 171008" src="https://github.com/user-attachments/assets/d96162aa-aba4-4a75-9db5-850d199f2a4b" />
 
