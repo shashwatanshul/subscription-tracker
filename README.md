@@ -3,7 +3,9 @@
 A Node.js + Express backend service for managing user subscriptions and sending automated renewal reminder emails.  
 The system uses MongoDB for persistence, JWT for authentication, Upstash Workflows for background scheduling, and Nodemailer for email delivery.
 
-<img width="1386" height="763" alt="image" src="https://github.com/user-attachments/assets/d55dd90e-d62d-4e2b-bc87-50c1196cef60" />
+## 🏗️ Project Structure
+
+<img width="581" height="783" alt="image" src="https://github.com/user-attachments/assets/469e66ae-ee29-4f5e-92fa-61221abbe8c6" />
 
 
 ---
@@ -55,8 +57,13 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
   - Automated email delivery using **Nodemailer** with dynamic templates.
 
 
-## 🏗️ Project Structure
+## ✅ Conclusion
 
-<img width="581" height="783" alt="image" src="https://github.com/user-attachments/assets/469e66ae-ee29-4f5e-92fa-61221abbe8c6" />
+This project showcases a well-structured backend system built using Node.js and Express, with a strong focus on security, scalability, and maintainability. By integrating JWT-based authentication, MongoDB with Mongoose for data modeling, Arcjet for application-level security, and Upstash workflows for background processing, the system effectively handles core backend responsibilities.
+
+The architecture follows a clear separation of concerns across routes, controllers, middleware, and services, making the codebase easy to understand and extend. Features like centralized error handling, logging mechanisms, and automated email reminders contribute to a reliable and maintainable system.
+
+Overall, this backend serves as a solid foundation for subscription-based applications and reflects good practices in backend development and system design.
+
 
 
