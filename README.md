@@ -1,19 +1,23 @@
-1. High-level Architecture
+# Subscription Tracker Backend
 
-Your project is a RESTful backend API built in Node.js + Express with:
+A Node.js + Express backend service for managing user subscriptions and sending automated renewal reminder emails.  
+The system uses MongoDB for persistence, JWT for authentication, Upstash Workflows for background scheduling, and Nodemailer for email delivery.
 
-Express as the HTTP server and routing layer
+---
 
-MongoDB + Mongoose as the database layer
+## 🚀 Tech Stack
 
-JWT-based auth for user authentication
+- **Node.js** – Runtime environment
+- **Express.js** – REST API framework
+- **MongoDB + Mongoose** – Database and ODM
+- **JWT (JSON Web Token)** – Authentication
+- **Arcjet** – Security (rate limiting, bot detection)
+- **Upstash Workflows (QStash)** – Background job scheduling
+- **Nodemailer (Gmail SMTP)** – Email notifications
+- **Railway** – Backend deployment
 
-Arcjet as a security & rate-limiting/bot-detection layer
+---
 
-Upstash Workflows (QStash) to schedule subscription reminder emails
+## 🏗️ System Architecture Overview
 
-Nodemailer (Gmail SMTP) for sending reminder emails
-
-Conceptually, it looks like this:
-
-Client (Frontend / Postman) → Express API → Middlewares → Controllers → Mongoose Models → MongoDB / External Services (Upstash, Gmail)
+The application follows a **layered REST architecture**:
