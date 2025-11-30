@@ -23,3 +23,6 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
 ## 🏗️ System Architecture Overview
 
 The application follows a **layered REST architecture**:
+
+<img width="575" height="813" alt="image" src="https://github.com/user-attachments/assets/f52895b1-2911-4e9b-bf35-8a45ca434e9f" />
+
