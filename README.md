@@ -10,7 +10,6 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
 
 <img width="581" height="783" alt="image" src="https://github.com/user-attachments/assets/469e66ae-ee29-4f5e-92fa-61221abbe8c6" />
 
-
 ---
 
 ## 🚀 Tech Stack
@@ -37,6 +36,10 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
   - Well-structured **MongoDB & Mongoose models**.
   - Clearly defined schemas and relationships between Users and Subscriptions.
   - Automatic calculation of renewal dates and subscription status.
+  - <img width="1668" height="915" alt="image" src="https://github.com/user-attachments/assets/823ea4e0-7e3e-4813-ac0b-a7629b35f8fe" />
+  - <img width="1664" height="830" alt="image" src="https://github.com/user-attachments/assets/3b25d273-54f7-4251-a972-b7ee99c5b06c" />
+
+
 
 - **JWT-Based Authentication**
   - Secure user authentication using **JSON Web Tokens**.
@@ -44,6 +47,8 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
     - User CRUD operations
     - Subscription creation and management
   - Ownership validation to prevent unauthorized access.
+  - <img width="1800" height="832" alt="image" src="https://github.com/user-attachments/assets/b6bc2690-2912-454c-be63-ddc4863de842" />
+
 
 - **Global Error Handling**
   - Centralized error middleware for consistent error responses.
