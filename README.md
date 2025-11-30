@@ -3,6 +3,9 @@
 A Node.js + Express backend service for managing user subscriptions and sending automated renewal reminder emails.  
 The system uses MongoDB for persistence, JWT for authentication, Upstash Workflows for background scheduling, and Nodemailer for email delivery.
 
+<img width="1386" height="763" alt="image" src="https://github.com/user-attachments/assets/d55dd90e-d62d-4e2b-bc87-50c1196cef60" />
+
+
 ---
 
 ## 🚀 Tech Stack
