@@ -59,6 +59,6 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
 
 The application follows a **layered REST architecture**:
 
-<img width="566" height="837" alt="image" src="https://github.com/user-attachments/assets/77d3f367-07ab-48c6-b0fd-2c289eb8dc66" />
+<img width="581" height="783" alt="image" src="https://github.com/user-attachments/assets/469e66ae-ee29-4f5e-92fa-61221abbe8c6" />
 
 
