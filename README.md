@@ -14,7 +14,6 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
 - **Arcjet** – Security (rate limiting, bot detection)
 - **Upstash Workflows (QStash)** – Background job scheduling
 - **Nodemailer (Gmail SMTP)** – Email notifications
-- **Railway** – Backend deployment
 
 ---
 
