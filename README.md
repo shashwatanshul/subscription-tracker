@@ -30,7 +30,7 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
 - **Advanced Rate Limiting & Bot Protection**
   - Integrated **Arcjet** for global protection against abuse.
   - Prevents bots, applies rate limits, and secures all API endpoints at the middleware level.
-  - <img width="1037" height="636" alt="image" src="https://github.com/user-attachments/assets/3894eb85-7729-4bf6-a61a-8d30d2298eff" />
+   <img width="1037" height="636" alt="image" src="https://github.com/user-attachments/assets/3894eb85-7729-4bf6-a61a-8d30d2298eff" />
 
 
 - **Robust Database Modeling**
