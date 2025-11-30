@@ -3,6 +3,9 @@
 A Node.js + Express backend service for managing user subscriptions and sending automated renewal reminder emails.  
 The system uses MongoDB for persistence, JWT for authentication, Upstash Workflows for background scheduling, and Nodemailer for email delivery.
 
+<img width="1386" height="763" alt="Screenshot 2025-11-30 171008" src="https://github.com/user-attachments/assets/d96162aa-aba4-4a75-9db5-850d199f2a4b" />
+
+
 ## 🏗️ Project Structure
 
 <img width="581" height="783" alt="image" src="https://github.com/user-attachments/assets/469e66ae-ee29-4f5e-92fa-61221abbe8c6" />
@@ -27,6 +30,8 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
 - **Advanced Rate Limiting & Bot Protection**
   - Integrated **Arcjet** for global protection against abuse.
   - Prevents bots, applies rate limits, and secures all API endpoints at the middleware level.
+  - <img width="1037" height="636" alt="image" src="https://github.com/user-attachments/assets/3894eb85-7729-4bf6-a61a-8d30d2298eff" />
+
 
 - **Robust Database Modeling**
   - Well-structured **MongoDB & Mongoose models**.
