@@ -20,17 +20,3 @@ The system uses MongoDB for persistence, JWT for authentication, Upstash Workflo
 ## 🏗️ System Architecture Overview
 
 The application follows a **layered REST architecture**:
-
-Client
-↓
-Express Server
-↓
-Global Middlewares (Security, Auth, Parsing)
-↓
-Route Layer
-↓
-Controller Layer (Business Logic)
-↓
-MongoDB (via Mongoose)
-↓
-External Services (Upstash, Email)
